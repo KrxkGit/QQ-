@@ -3,7 +3,7 @@
 
 #include "stdafx.h"
 #include "QQ点赞.h"
-#include"缴费系统.h"
+//#include"缴费系统.h"
 
 // 全局变量: 
 HINSTANCE hInst;// 当前实例
@@ -28,7 +28,7 @@ int APIENTRY _tWinMain(_In_ HINSTANCE hInstance,
 
 	// TODO:  在此放置代码。
 	skinppLoadSkin("SlickOS2.ssk");
-	ExitIfHaveNotPayMoney()
+	//ExitIfHaveNotPayMoney()
 
 	hInst = hInstance;
 	DialogBox(hInst, MAKEINTRESOURCE(IDD_ABOUTBOX), NULL, MainDlg);
